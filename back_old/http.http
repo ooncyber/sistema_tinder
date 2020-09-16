@@ -1,0 +1,16 @@
+# POST http://localhost/usuario
+# content-type: application/json
+
+# {
+#     "nome": "fabricio",
+#     "idade":20,
+#     "id_genero":1
+# }
+
+POST http://localhost/likes
+content-type: application/json
+
+{
+    "id_dando":1,
+    "id_recebendo":3
+}
